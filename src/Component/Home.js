@@ -51,7 +51,7 @@ const Home = () => {
         </div>
 
         <form className="ui form center" >
-        <div className="field green">
+        <div className="field ">
           <textarea 
           placeholder="type something...."
           value={postText} onChange={(e) => setPostText(e.target.value)}
